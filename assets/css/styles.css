@@ -1,0 +1,79 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+.btn-warning {
+    background-color: #FDD35D;
+    border: 1px solid #FDD35D;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.rounded-lg {
+    border-radius: 25px!important;
+}
+
+.club-info {
+    margin: 0 0 94px 0;
+}
+
+.club-name {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.team {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.player-number {
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.player-name {
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 7px;
+
+}
+
+table {
+    margin: 0 auto;
+}
+
+.login-btn {
+    margin: 0 auto;
+}

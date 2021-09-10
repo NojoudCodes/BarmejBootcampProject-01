@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBS Leauge | Login page</title>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <ul class="nav justify-content-center pt-4">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="index.html">
+            <i class="far fa-futbol"></i>
+            <strong>MBS</strong>
+          </a>
+        </li>
+    </ul><!-- Navbar -->
+
+    <div class="d-flex flex-column justify-content-center align-items-center mt-5 pt-4">
+        <form class="bg-white p-5 shadow rounded w-35">
+            <h5 class="text-center pb-4">Login</h5>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input name="password" type="password" class="form-control" id="password">
+            </div>
+            <button type="submit" class="btn btn-warning px-5 login-btn">
+              <strong>Login</strong>
+            </button>
+          </form>
+    </div>
+    
+    <!-- jquery and bootstrap bundle -->
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
